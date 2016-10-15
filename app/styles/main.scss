@@ -290,4 +290,40 @@ body {
   }
 }
 
+.category .box{
+  padding: 3px !important; 
+  height: 100px !important;
+  cursor: pointer;
+}
+
+.category .box:hover{
+  border: 1px solid #ccc !important;
+}
+
+.category .box .content{
+  background-color: transparent !important; 
+  height: 100% !important;
+}
+
+.category .box .content .icon-holder{
+  text-align: center !important;
+  padding-top: 5px !important;
+  height:70% !important; 
+  background-color: transparent !important;
+}
+
+.category .box .content .title-holder{
+  height:30% !important; 
+  text-align: center;
+  background-color: transparent !important;
+  font-family: verdana;
+  font-size: 10px;
+}
+
+/* Sprite image classes*/
+#mobiles {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) 0 0;
+}
 
