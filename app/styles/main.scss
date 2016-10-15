@@ -298,6 +298,11 @@ body {
 
 .category .box:hover{
   border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  color: orange !important;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
 }
 
 .category .box .content{
