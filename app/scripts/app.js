@@ -23,9 +23,33 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/register', {
+        templateUrl: 'views/register.html',
+        controller: 'RegisterCtrl'
+      })
+      .when('/signIn', {
+        templateUrl: 'views/sign-in.html',
+        controller: 'SigninCtrl'
+      })
+      .when('/subCategory', {
+        templateUrl: 'views/main-sub-category.html',
+        controller: 'MainsubcategoryCtrl'
+      })
+      .when('/listing', {
+        templateUrl: 'views/listing.html',
+        controller: 'ListingCtrl'
+      })
+      .when('/detail', {
+        templateUrl: 'views/item-detail.html',
+        controller: 'ItemdetailCtrl'
+      })
+      .when('/submitClassified', {
+        templateUrl: 'views/submit-classified.html',
+        controller: 'SubmitclassifiedCtrl'
+      })
+      .when('/myAccount', {
+        templateUrl: 'views/my-account.html',
+        controller: 'MyaccountCtrl'
       })
       .otherwise({
         redirectTo: '/'

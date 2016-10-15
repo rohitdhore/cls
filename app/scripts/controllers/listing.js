@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name clfApp.controller:AboutCtrl
+ * @name clfApp.controller:ListingCtrl
  * @description
- * # AboutCtrl
+ * # ListingCtrl
  * Controller of the clfApp
  */
 angular.module('clfApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('ListingCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

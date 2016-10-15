@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: SubmitclassifiedCtrl', function () {
 
   // load the controller's module
   beforeEach(module('clfApp'));
 
-  var AboutCtrl,
+  var SubmitclassifiedCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    SubmitclassifiedCtrl = $controller('SubmitclassifiedCtrl', {
       $scope: scope
     });
   }));
