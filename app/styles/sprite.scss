@@ -1,0 +1,64 @@
+/* Sprite image classes*/
+#mobiles {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) 0 0;
+}
+
+#electronics {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) -80px 0;
+}
+
+#cars {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) -160px 0;
+}
+
+#bikes {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) -240px 0;
+}
+
+#furniture {
+    width: 55px;
+    height: 55px;
+    background: url(/images/sprite.png) 0px 128px;
+    
+}
+
+#books {
+  width: 55px;
+  height: 55px;
+  background: url(/images/sprite.png) -160px 130px;
+   
+}
+
+#fashion {
+  width: 55px;
+  height: 55px;
+  background: url(/images/sprite.png) -240px 130px;
+}
+
+#pets {
+  width: 55px;
+  height: 55px;
+  background: url(/images/sprite.png) -80px 128px;
+    
+}
+
+#realestate {
+  width: 55px;
+  height: 55px;
+  background: url(/images/sprite.png) -240px 62px;
+    
+}
+
+#jobs {
+  width: 55px;
+  height: 55px;
+  background: url(/images/sprite.png) 0 62px;
+}

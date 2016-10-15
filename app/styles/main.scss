@@ -3,6 +3,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "sprite.scss";
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -41,6 +43,9 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  position: fixed;
+  bottom:0;
+  width:100%;
 }
 
 .container-narrow > hr {
@@ -325,10 +330,7 @@ body {
   font-size: 10px;
 }
 
-/* Sprite image classes*/
-#mobiles {
-    width: 55px;
-    height: 55px;
-    background: url(/images/sprite.png) 0 0;
-}
+
+
+
 
