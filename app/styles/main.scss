@@ -3,8 +3,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "sprite.scss";
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -70,6 +68,10 @@ body {
   p + h4 {
     margin-top: 28px;
   }
+}
+
+.text-align-center{
+  text-align: center;
 }
 /*Border classes*/
 .border-solid-ccc{
@@ -328,6 +330,52 @@ body {
   background-color: transparent !important;
   font-family: verdana;
   font-size: 10px;
+}
+
+.category-tab-holder{
+  background-color: #E7E7E7;
+}
+.category-tab-holder .header-ection{
+  border-bottom: 1px solid #ccc;
+}
+
+.category-tab-single{
+
+}
+
+.category-tab-single:hover {
+  z-index: 2;
+  background: #ffffff;
+  color: orange !important;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.selected-category-tab{
+  z-index: 2;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  color: #000;
+  text-decoration: none;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: -7px;
+  padding-left: 30px;
+  cursor: default;
+}
+
+.category-tab-single div{
+  padding: 10px 20px 10px 20px; 
+}
+
+.category-tab-single{
+  cursor: pointer;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 

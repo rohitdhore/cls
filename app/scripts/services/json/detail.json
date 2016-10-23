@@ -1,0 +1,36 @@
+{
+    "item": {
+        "id": 1,
+        "title": "test title",
+        "added_on": "",
+        "added_by_name": "Test",
+        "added_by_id": 1,
+        "description": "test",
+        "isVerified": true,
+        "mainImages": [
+            "http://placehold.it/1200x480&amp;text=one", 
+            "http://placehold.it/1200x480&amp;text=two", 
+            "http://placehold.it/1200x480&amp;text=three",
+            "http://placehold.it/1200x480&amp;text=four",
+            "http://placehold.it/1200x480&amp;text=five", 
+            "http://placehold.it/1200x480&amp;text=six", 
+            "http://placehold.it/1200x480&amp;text=seven"],
+        "thumbnails": [
+            "http://placehold.it/80x60&amp;text=one", 
+            "http://placehold.it/80x60&amp;text=two", 
+            "http://placehold.it/80x60&amp;text=three",
+            "http://placehold.it/80x60&amp;text=four",
+            "http://placehold.it/80x60&amp;text=five", 
+            "http://placehold.it/80x60&amp;text=six", 
+            "http://placehold.it/80x60&amp;text=seven"],
+        "category": {
+            "id":1, 
+            "title":"Mobiles",
+            "subCategory": {
+                "id":20, 
+                "name": "mobile_phones", 
+                "title": "Mobile phones"
+            }
+        }
+    }   
+}

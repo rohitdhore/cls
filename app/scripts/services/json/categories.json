@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {"id":1, "name": "mobiles", "title": "Mobiles", "subCategories": [
+      {"id":20, "name": "mobile_phones", "title": "Mobile phones", "subCategories": []},
+      {"id":21, "name": "tablets", "title": "Tablet", "subCategories": []},
+      {"id":22, "name": "accesories", "title": "Accesories", "subCategories": []}
+    ]},
+    {"id":2, "name": "electronics", "title": "Electronics & Appliances", "subCategories": [
+      {"id":23, "name": "computer_laptops", "title": "Computer & laptops", "subCategories": []},
+      {"id":24, "name": "tv_video_audio", "title": "Tvs Video-Audio", "subCategories": []},
+      {"id":25, "name": "harddisk_printer_monitors", "title": "Hard Disk, Printers & Monitors", "subCategories": []},
+      {"id":26, "name": "acs", "title": "Ac\"s", "subCategories": []},
+      {"id":27, "name": "washing_machine", "title": "Washing machine", "subCategories": []},
+      {"id":28, "name": "fridges", "title": "Fridges", "subCategories": []},
+      {"id":29, "name": "computer_accesories", "title": "Computer Accesories", "subCategories": []},
+      {"id":30, "name": "camera_lenses", "title": "Camera & Lenses", "subCategories": []},
+      {"id":31, "name": "kitchen_other_appliances", "title": "Kitchen & Other appliances", "subCategories": []},
+      {"id":32, "name": "games_entertainment", "title": "Games & Entertainment", "subCategories": []}
+    ]},
+    {"id":3, "name": "cars", "title": "Cars", "subCategories": [
+      {"id":33, "name": "cars_sub", "title": "Cars", "subCategories": []},
+      {"id":34, "name": "commercial_vehicles", "title": "Commercial Vehicles", "subCategories": []},
+      {"id":35, "name": "other_vehicles", "title": "Other Vehicles", "subCategories": []},
+      {"id":36, "name": "spare_parts_car", "title": "Spare Parts", "subCategories": []}
+    ]},
+    {"id":4, "name": "bikes", "title": "Bikes", "subCategories": [
+      {"id":37, "name": "motorcycle", "title": "Motorcycle", "subCategories": []},
+      {"id":38, "name": "scooters", "title": "Scooters", "subCategories": []},
+      {"id":39, "name": "bycycles", "title": "Bycycles", "subCategories": []},
+      {"id":40, "name": "spare_parts_bikes", "title": "Spare Parts", "subCategories": []}
+    ]},
+    {"id":5, "name": "furniture", "title": "Furniture", "subCategories": [
+      {"id":41, "name": "sofa_dinning", "title": "Sofa & Dinning", "subCategories": []},
+      {"id":42, "name": "beds_wardrobes", "title": "Beds & Wardrobes", "subCategories": []},
+      {"id":43, "name": "homedecor_garden", "title": "Home Decor & Garden", "subCategories": []},
+      {"id":44, "name": "other_household_items", "title": "Other Household Items", "subCategories": []},
+      {"id":45, "name": "kids_furniture", "title": "Kid's Furniture", "subCategories": []}
+    ]},
+    {"id":6, "name": "books", "title": "Books, Sports & Hobbies", "subCategories": [
+      {"id":46, "name": "books", "title": "Books", "subCategories": []},
+      {"id":47, "name": "musical_instruments", "title": "Musical Instruments", "subCategories": []},
+      {"id":48, "name": "sports_equipment", "title": "Sports Equipments", "subCategories": []},
+      {"id":49, "name": "gym_fitness", "title": "Gym & Fitness", "subCategories": []},
+      {"id":50, "name": "other_hobbies", "title": "Other Hobbies", "subCategories": []}
+    ]},
+    {"id":7, "name": "fashion", "title": "Fashion", "subCategories": [
+      {"id":51, "name": "men", "title": "Men", "subCategories": []},
+      {"id":52, "name": "women", "title": "Women", "subCategories": []},
+      {"id":53, "name": "kids", "title": "Kids", "subCategories": []}
+    ]},
+    {"id":8, "name": "pets", "title": "Pets", "subCategories": [
+      {"id":54, "name": "fishes_aquirium", "title": "Fishes & Aquirium", "subCategories": []},
+      {"id":55, "name": "dogs", "title": "Dogs", "subCategories": []},
+      {"id":56, "name": "other_pets", "title": "Other Pets", "subCategories": []},
+      {"id":57, "name": "pet_food_accesories", "title": "Pet Food & Accesories", "subCategories": []}
+    ]},
+    {"id":9, "name": "realestate", "title": "Real Estate", "subCategories": [
+      {"id":58, "name": "rent", "title": "Rent", "subCategories": []},
+      {"id":59, "name": "sale", "title": "Sale", "subCategories": []}
+    ]},
+    {"id":10, "name": "jobs", "title": "Jobs & Services", "subCategories": [
+      {"id":60, "name": "jobs", "title": "Jobs", "subCategories": []},
+      {"id":61, "name": "services", "title": "Services", "subCategories": []}
+    ]}]
+}

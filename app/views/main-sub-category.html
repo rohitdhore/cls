@@ -1,1 +1,38 @@
-<p>This is the main-sub-category view.</p>
+<div class="col-sm-12 padding-0 margin-bottom-10 border-solid-ccc">
+  <div class="col-sm-4 padding-left-0 padding-right-0 category-tab-holder">
+   	<div class="col-sm-12 padding-left-0 padding-right-0 header-ection">
+   		<div class="col-sm-12 padding-left-0 padding-right-0 category-tab-single">
+   			<div>Main Categories</div>
+  		</div>
+  		<div class="col-sm-12 padding-left-0 padding-right-0 category-tab-single">
+   			<div>All Ads</div>
+  		</div>
+  	</div>
+  	<div class="col-sm-12 padding-left-0 padding-right-0">
+		<div class="col-sm-12 padding-left-0 padding-right-0 category-tab-single cursor-pointer" 
+		ng-class="{'selected-category-tab': category.id == currentCategory.id}" 
+		ng-repeat="category in categories" ng-click="selectCategory(category)">
+			<div>{{category.title}}</div>
+		</div>
+	</div>
+  </div>
+  <div class="col-sm-8 padding-0 category-holder">
+    <div class="col-sm-12 padding-0 category" ng-if="categories.length > 0">
+      <div class="col-sm-3 padding-0 box"
+      ng-repeat="subCategory in subCategories" 
+      ng-click="selectSubCategory(subCategory)">
+      <div class="col-sm-12 padding-0 content">
+        <div class="col-sm-12 padding-0 text-align-center margin-bottom-5">
+          <img id="{{subCategory.name}}" src="/images/icon.png">        
+        </div>
+        <div class="col-sm-12 padding-0 title-holder">
+          <span class="col-sm-12 padding-0">{{subCategory.title}}</span>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+</div>
